@@ -7,3 +7,50 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/* header section styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+nav >ul {
+    display: flex;
+    
+}
+nav li {
+    margin-right: 30px;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner styles */
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:#131313 ;
+}
+.banner-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #131313;
+}
