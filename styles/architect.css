@@ -54,3 +54,41 @@ nav a{
     font-weight: 400;
     color: #131313;
 }
+.btn-primery{
+    width: 11rem;
+    height: 4rem;
+    background-color:#FF900E ;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2rem 0 3rem 0;
+    border-radius: 8px;
+    
+    }
+    .banner img{
+        width: 100%;
+        /* height: 700px */
+    }
+
+     /* responsive device  */
+     @media screen and (max-width:576px) {
+        header{
+            padding: 20px;
+        }
+        nav {
+            flex-direction: column;
+        }
+     }
+
+     /* medium device  */
+
+     @media screen and (min-width:576px) and (max-width:960px) {
+        
+        header{
+            padding: 50px;
+        }
+
+        nav{
+            flex-direction: column;
+        }
+     }
