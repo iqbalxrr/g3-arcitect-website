@@ -161,8 +161,16 @@ nav a{
         width: 162px;
        
       }
-
-
+        footer{
+            background-color: #FFF4E7;
+            text-align: center;
+            margin: 0 240px;
+            border-radius: 8px;
+          
+        }
+        footer p{
+            padding: 20px;
+        }
 
      /* responsive device  */
      @media screen and (max-width:576px) {
