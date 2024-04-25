@@ -105,16 +105,71 @@ nav a{
         font-size: 1.1rem;
         font-weight: 400;
     }
+    /* facts styles */
+
+     .facts-title{
+        color: #131313;
+        font-size: 45px;
+        font-weight: 700;
+      
+     }
+    .facts-discription{
+        color: #727272);
+        font-size: 16px;
+        font-weight: 400;
+    }
+     .facts-card-container{
+        display: flex;
+        justify-content:space-evenly;
+     }
+     .cards{
+        border: 2px solid #FF900E;
+        padding: 30px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 8px;
+        
+
+     }
+      .card-satas{
+        font-size: 2.8rem;
+        font-weight: 600;
+      }
+      .card-title{
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      /* sponspors styles */
+      .sponspors-contant{
+        text-align: center;
+        margin: 3rem auto;
+      }
+      .Sponspors-title{
+        font-size: 2.8rem;
+        font-weight: 600;
+        color: #131313;
+      }
+
+      .sponspors-logo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top:2rem;
+        gap: 40px;
+        align-items: center;
+      }
+      .sponspors-logo img{
+        width: 162px;
+       
+      }
 
 
 
-    
      /* responsive device  */
      @media screen and (max-width:576px) {
         header{
             padding: 20px;
         }
-        nav {
+        nav, .facts-card-container, .sponspors-logo {
             flex-direction: column;
         }
         .teams-container{
@@ -129,7 +184,10 @@ nav a{
             border: 2px solid gold;
             margin: 20px 30px;
         }
-
+        .facts{
+            text-align: center;
+        }
+        
      }
 
      /* medium device  */
@@ -140,12 +198,14 @@ nav a{
             padding: 50px;
         }
 
-        nav, .teams-container{
+        nav, .teams-container,.sponspors-logo{
             flex-direction: column;
         }
         .teams-contant{
             border: 2px solid gold;
             margin: 20px 30px;
         }
-           
+        .facts{
+            text-align: center; 
      }
+    }
