@@ -263,7 +263,7 @@ nav a{
         }
          footer{
             margin: 0px;
-            padding: 2px;
+            padding: 0px;
          }
          .featurs-img img{
            margin-left: 0px;
@@ -272,6 +272,9 @@ nav a{
          .ten-years-badge{
            display: none;
 
+         }
+         .featurs-card,.featurs-title{
+            padding: 0px;
          }
         }
      
