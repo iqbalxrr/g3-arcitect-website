@@ -270,7 +270,9 @@ nav a{
            width:100%;
          }
          .ten-years-badge{
-           display: none;
+            display: none;
+            position: static;
+           max-width: 300px;
 
          }
          .featurs-card,.featurs-title{
